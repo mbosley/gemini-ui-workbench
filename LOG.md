@@ -10,4 +10,4 @@
 - Completed: rewrote `README.md` around the public workflow narrative so the repo reads as the software half of the `gemini-frontend-studio` pattern rather than as an extraction scratchpad.
 - Completed: switched the fixture capture integration path to an ephemeral port so full validation remains stable even when tests overlap.
 - Validated: `npm test`, `npm run smoke:inspect`, `npm run smoke:gate`, `npm run smoke:capture-plan`, and `npm run smoke:capture-e2e` pass after the README and test-isolation polish.
-- Completed: added `scripts/generate-social-preview.py`, generated `assets/social-preview.png`, and documented the manual GitHub upload path in `docs/social-preview.md`.
+- Completed: replaced the initial hand-built social card with a Gemini-generated card at `assets/social-preview.png`, added the reusable prompt spec at `assets/social-preview-spec.md`, and documented the manual GitHub upload path in `docs/social-preview.md`.
