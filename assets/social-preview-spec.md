@@ -16,8 +16,8 @@
 
 ## 3) Core message hierarchy
 
-- Primary message: Gemini UI Workbench is a polished tool repo for Gemini-first frontend workflows
-- Secondary message: the workflow has three clear stages: Review, Gate, Capture
+- Primary message: this repo helps you review UI ideas, check code changes, and capture screenshots
+- Secondary message: the workflow has three simple stages: Review, Check, Capture
 - Tertiary message: the repo is modern, technical, minimal, and trustworthy
 
 ## 4) Must-include evidence
@@ -29,27 +29,27 @@
 - confidence level: high
 
 2. workflow subtitle
-- value or claim: UI review • pack gating • authenticated capture
+- value or claim: Review UI ideas • check code changes • capture screenshots
 - unit and time reference: current workflow summary
 - source tag: workflow-summary
 - confidence level: high
 
 3. tool framing
-- value or claim: Tools for Gemini-first frontend workflows
+- value or claim: A safer workflow for AI-assisted frontend work
 - unit and time reference: current repo positioning
 - source tag: repo-positioning
 - confidence level: high
 
 4. workflow blocks
-- value or claim: Review, Gate, Capture
+- value or claim: Review, Check, Capture
 - unit and time reference: current workflow stages
 - source tag: workflow-stages
 - confidence level: high
 
 ## 5) Must-not-lose constraints
 
-- Non-negotiable terms: Gemini UI Workbench; Review; Gate; Capture
-- Terms to avoid: dashboards, enterprise platform, analytics suite, marketing buzzwords
+- Non-negotiable terms: Gemini UI Workbench; Review; Check; Capture
+- Terms to avoid: gating, authenticated capture, platform, enterprise, analytics suite, workflow jargon, marketing buzzwords
 - Sensitive wording constraints: do not imply private screenshots, client work, or proprietary app surfaces
 
 ## 6) Visual architecture
@@ -62,7 +62,7 @@
 ## 7) Text policy
 
 - Text density, strict, balanced, rich: strict
-- Max visible words target: 22
+- Max visible words target: 18
 - Max words per label target: 5
 - Language: English
 
@@ -91,6 +91,6 @@
 ## 11) Revision focus, only if needed
 
 - What is wrong in current image: n/a
-- What must stay unchanged: repo title, workflow subtitle, three-stage structure, dark technical tone
+- What must stay unchanged: repo title, plain-language subtitle, three-stage structure, dark technical tone
 - What to change precisely: n/a
 - Confirm rerun uses the same master anchor and not a generated draft: yes
