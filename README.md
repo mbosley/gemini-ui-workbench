@@ -30,6 +30,9 @@ This repo is the software half of that workflow. The runbook/policy half lives s
 - `scripts/fixture-auth-app.mjs`
   - runs a tiny synthetic auth app for end-to-end capture testing
 
+- `scripts/generate-social-preview.py`
+  - regenerates the repository social preview asset at `assets/social-preview.png`
+
 ## Why this exists
 
 A lot of UI-design workflows break down because they rely on chat-only output, ad hoc copy/paste, or ungated code application.
@@ -75,6 +78,7 @@ This keeps the repo runnable without publishing private screenshots, private ses
 - `examples/` — synthetic fixtures only
 - `tests/` — deterministic tests, including the end-to-end capture test
 - `docs/` — extraction notes and usage docs
+- `assets/` — checked-in social preview and other lightweight public repo assets
 
 ## Boundaries
 
