@@ -1,0 +1,15 @@
+{
+  "session": "synthetic-demo",
+  "createdAt": "2026-03-08T12:00:00.000Z",
+  "updatedAt": "2026-03-08T12:00:00.000Z",
+  "turns": [
+    {
+      "role": "user",
+      "text": "Design and return a minimal hero component pack."
+    },
+    {
+      "role": "model",
+      "text": "```json\n{\n  \"fileMap\": [\"src/components/Hero.tsx\"],\n  \"applyOrder\": [\"src/components/Hero.tsx\"],\n  \"files\": {\n    \"src/components/Hero.tsx\": \"export function Hero() {\\n  return <section>Generic hero</section>;\\n}\\n\"\n  }\n}\n```"
+    }
+  ]
+}

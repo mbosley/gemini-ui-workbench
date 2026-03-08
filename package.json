@@ -1,0 +1,16 @@
+{
+  "name": "gemini-ui-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "smoke:capture-plan": "node scripts/capture-authenticated-route.mjs --route /demo --output tmp/demo.png --baseUrl http://127.0.0.1:3000 --dryRun",
+    "smoke:capture-e2e": "node --test tests/capture-integration.test.mjs",
+    "smoke:inspect": "node scripts/gemini-ui-review.mjs --session synthetic-demo --inspect-last --required-files src/components/Hero.tsx --summary-out tmp/inspect-summary.json",
+    "smoke:gate": "node scripts/gemini-pack-apply.mjs --session synthetic-demo --required-files src/components/Hero.tsx --allow-prefix src/components/ --summary-out tmp/pack-summary.json"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0"
+  }
+}
