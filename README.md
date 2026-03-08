@@ -30,8 +30,8 @@ This repo is the software half of that workflow. The runbook/policy half lives s
 - `scripts/fixture-auth-app.mjs`
   - runs a tiny synthetic auth app for end-to-end capture testing
 
-- `scripts/generate-social-preview.py`
-  - regenerates the repository social preview asset at `assets/social-preview.png`
+- `assets/social-preview-spec.md`
+  - the Gemini generation spec for the repository social preview image
 
 ## Why this exists
 
