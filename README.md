@@ -1,5 +1,7 @@
 # Gemini UI Workbench
 
+> Legacy compatibility repo. Canonical development now lives in [`mbosley/gemini-studio`](https://github.com/mbosley/gemini-studio) under `packages/ui-workbench`.
+
 `gemini-ui-workbench` is a small tool repo for Gemini-first UI workflows.
 
 It is built around one repeatable loop:

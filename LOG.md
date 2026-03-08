@@ -11,3 +11,4 @@
 - Completed: switched the fixture capture integration path to an ephemeral port so full validation remains stable even when tests overlap.
 - Validated: `npm test`, `npm run smoke:inspect`, `npm run smoke:gate`, `npm run smoke:capture-plan`, and `npm run smoke:capture-e2e` pass after the README and test-isolation polish.
 - Completed: replaced the initial hand-built social card with a Gemini-generated card at `assets/social-preview.png`, added the reusable prompt spec at `assets/social-preview-spec.md`, documented the manual GitHub upload path in `docs/social-preview.md`, and then simplified the card language so it explains the repo in plain English (`Review UI ideas • check code changes • capture screenshots`).
+- Completed: marked this repo as a legacy compatibility shell and pointed canonical development to `gemini-studio/packages/ui-workbench` ahead of archival.
